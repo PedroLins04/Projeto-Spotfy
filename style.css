@@ -1,0 +1,18 @@
+.navbar-custom .nav-link {
+    color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #bd93f9;
+  transform: scale(1.02);
+}
+
+.navbar-custom .navbar-toggler {
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar-custom .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.2rem #ffffff80;
+}
+
