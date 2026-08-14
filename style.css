@@ -1,18 +1,53 @@
+/* @Autor - PedroLins*/
+
+body {
+  background: url(imagens/capa.png),
+    url(imagens/ruido.png),
+    linear-gradient(50deg, #ff5169, #7c26f8);
+  background-attachment: fixed;
+}
+
 .navbar-custom .nav-link {
-    color: #fff;
+  color: #fff;
   transition: all 0.2s ease-in-out;
 }
 
 .navbar-custom .nav-link:hover {
-  color: #bd93f9;
+  color: #7c25f8;
   transform: scale(1.02);
 }
 
-.navbar-custom .navbar-toggler {
-    transition: all 0.2s ease-in-out;
-}
-
 .navbar-custom .navbar-toggler:focus {
-    box-shadow: 0 0 0 0.2rem #ffffff80;
+  box-shadow: 0 0 0 0.2rem #ffffff80;
 }
 
+a {
+  text-decoration: none;
+}
+
+.btn-custom {
+  color: #fff;
+  border-radius: 50px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.btn-roxo {
+  background-color: #7c25f8;
+  margin-right: 5px;
+}
+
+.btn-roxo:hover {
+  color: #fff;
+  background-color: #5d07ce;
+}
+
+.btn-branco:hover {
+  background-color: #fff;
+  color: black;
+}
+
+h1.destacar{
+  font-size:clamp(3rem, 10vw ,6rem);
+  font-weight: 380;
+}
