@@ -7,6 +7,11 @@ body {
   background-attachment: fixed;
 }
 
+section:first-of-type {
+    padding-top: 100px;
+    margin-bottom: 15px;
+}
+
 .navbar-custom .nav-link {
   color: #fff;
   transition: all 0.2s ease-in-out;
@@ -33,21 +38,48 @@ a {
 }
 
 .btn-roxo {
-  background-color: #7c25f8;
+  background-color: #2596f8;
   margin-right: 5px;
+}
+
+.btn-premium{
+  background-color: #9bf0e1;
+  color:#484848;
+}
+
+.btn-premium:hover{
+  background: none;
+  border-color: #9bf0e1;
+  color: white;
 }
 
 .btn-roxo:hover {
   color: #fff;
-  background-color: #5d07ce;
+  border-color: #fff;
+  background: none;
 }
 
-.btn-branco:hover {
+.btn-branco {
   background-color: #fff;
   color: black;
+}
+
+.btn-branco:hover{
+  background: none;
+  color: #fff;
 }
 
 h1.destacar{
   font-size:clamp(3rem, 10vw ,6rem);
   font-weight: 380;
+}
+
+.lr{
+  color: #9bf0e1;
+  font-weight: 400;
+}
+
+.rotacao{
+  transform: rotate(30deg);
+  padding-left: 80px;
 }
