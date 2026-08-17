@@ -15,7 +15,7 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-dark bg-opacity-75 fixed-top navbar-custom">
+        <nav class="navbar navbar-expand-lg bg-black bg-opacity-75 fixed-top navbar-custom">
             <div class="container">
 
                 <!--logo-->
@@ -72,9 +72,9 @@
 
                         <div class="carousel-inner"> <!--CONTEUDO CAROUSEL-->
 
-                            <div class="carousel-item active"> <!--item 0-->
+                            <div class="carousel-item"> <!--item 0-->
 
-                                <h1 class="display-1 text-white destacar">Música para todos</h1>
+                                <h1 class="display-1 text-white destacar lr">Música grátis para todos</h1>
 
                                 <a href="">
                                     <button class="btn btn-custom btn-roxo mb-2 mb-sm-0">aproveite o spotfy
@@ -85,22 +85,23 @@
 
                             <div class="carousel-item"> <!--Item 1-->
 
-                                <h1 class="display-1 text-white destacar">As melhores playlists</h1>
+                                <h1 class="display-1 text-white destacar lr">As melhores playlists</h1>
 
                                 <a href="">
-                                    <button class="btn btn-custom btn-branco border-white"><i
-                                            class="bi bi-music-note-beamed"></i> Ouça agora</button>
+                                    <button class="btn btn-custom btn-branco border-white mb-2 mb-sm-0"><i
+                                            class="bi bi-music-note-beamed"></i> Aproveite <i
+                                            class="bi bi-music-note-beamed"></i></button>
                                 </a>
 
                             </div><!--Fim item1-->
 
-                            <div class="carousel-item"> <!--item2-->
+                            <div class="carousel-item active"> <!--item2-->
 
-                                <h1 class="display-1 text-white destacar">Seus artistas favoritos</h1>
+                                <h1 class="display-1 text-white destacar lr">Seus artistas favoritos</h1>
 
                                 <a href="">
-                                    <button
-                                        class="btn btn-custom btn-roxo mb-2 mb-sm-0">Cadastre-se</button>
+                                    <button class="btn btn-custom btn-roxo mb-2 mb-sm-0"><i
+                                            class="bi bi-music-note-beamed"></i> Ouça agora </button>
                                 </a>
 
                             </div><!--FIm item2-->
@@ -124,7 +125,7 @@
         </div> <!--Fim do container-->
     </section> <!--Fim capa-->
 
-    <section class="py-md-5 mb-5"> <!--CONTEUDO-->
+    <section class="py-md-5 mb-5 mt-5"> <!--CONTEUDO-->
         <div class="container">
             <div class="row">
 
@@ -154,7 +155,7 @@
                 </div><!--Fim imagens-->
 
                 <div class="col-12 col-md-6 order-1 order-md-2"> <!--TEXTO-->
-                    <h2 class="display-3 lr text-white">Tem no spotfy</h2>
+                    <h2 class="display-3 lr text-white"> Tem no spotfy <i class="bi bi-spotify"></i></h2>
 
                     <h3 class="display-5 lr mb-0">Músicas</h3>
                     <p class="lead text-white fw-semibold">O spotfy tem milhões de músicas. Escute seus sons favoritos e
@@ -169,6 +170,7 @@
                     <p class="lead text-white fw-semibold">Escute os novos lançamentos do seu artista predileto e veja o
                         que está bombando no
                         Top 50!</p>
+
                 </div> <!--Fim TEXTO-->
 
             </div>
@@ -183,17 +185,20 @@
                     <h2 class="display-3 lr text-white">seja premium!</h2>
 
                     <h3 class="display-6 mb-0 lr">Sem anúncios</h3>
-                    <p class="lead text-white ">Curta suas músicas sem interrupções.</p>
+                    <p class="lead text-white fw-semibold">Curta suas músicas sem interrupções.</p>
 
                     <h3 class="display-6 mb-0 lr">Dowload liberado!</h3>
-                    <p class="lead text-white">Baixe suas músicas para ouvir offline a qualquer hora com qualidade
+                    <p class="lead text-white fw-semibold">Baixe suas músicas para ouvir offline a qualquer hora com
+                        qualidade
                         melhorada.</p>
 
                     <h3 class="display-6 mb-0 lr">Faça sua ordem</h3>
-                    <p class="lead text-white">reprodução de faixas em qualquer ordem sem limite de pulos.</p>
+                    <p class="lead text-white fw-semibold">reprodução de faixas em qualquer ordem sem limite de pulos.
+                    </p>
 
                     <a href="#">
-                        <button class="btn btn-custom btn-premium">obter spotfy premium</button>
+                        <button class="btn btn-custom btn-premium"><i class="bi bi-spotify"></i> obter spotfy premium <i
+                                class="bi bi-spotify"></i></button>
                     </a>
 
                 </div> <!--Fim TEXTO-->
@@ -217,14 +222,62 @@
 
     </section> <!--FIM CONTEUDO 2-->
 
-    <h1>CONTEUDO</h1>
-    <h1>CONTEUDO</h1>
-    <h1>CONTEUDO</h1>
-    <h1>CONTEUDO</h1>
-    <h1>CONTEUDO</h1>
-    <h1>CONTEUDO</h1>
-    <h1>CONTEUDO</h1>
-    <h1>CONTEUDO</h1>
+    <footer class="bg-black bg-opacity-75 mt-5"> <!--RODAPE-->
+
+        <div class="container pt-4">
+            <div class="row">
+
+                <div class="col-6 col-md-2"> <!--LOGO-->
+                    <img src="imagens/spotify.svg" width="150px" alt="Spotify-logo" class="img-fluid">
+                </div>
+
+                <div class="col-md-2 col-4 ft d-none d-md-block"> <!--COMPANY-->
+                    <h6 class="text-uppercase">Company</h6>
+                    <ul class="navbar-nav navbar-dark navbar-custom">
+                        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Empregos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Imprensa</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-4 ft d-none d-md-block"> <!--COMUNIDADE-->
+                    <h6 class="text-uppercase">Comunidades</h6>
+                    <ul class="navbar-nav navbar-dark navbar-custom">
+                        <li class="nav-item"><a href="#" class="nav-link">Artistas</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Desenvolvedores</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Marcas</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-4 ft"> <!--LINKS-->
+                    <h6 class="text-uppercase">Links úteis</h6>
+                    <ul class="navbar-nav navbar-dark navbar-custom">
+                        <li class="nav-item"><a href="#" class="nav-link">Ajuda</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Player na web</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Novidades</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-12 d-none d-md-block"> <!--ICONS-->
+                    <div class="d-flex justify-content-start gap-4">
+
+                        <a href="" class="text-white">
+                            <i class="bi bi-instagram fs-2 bg-black p-3 rounded-pill"></i>
+                        </a>
+
+                        <a href="" class="text-white">
+                            <i class="bi bi-twitter-x fs-2 bg-black p-3 rounded-pill"></i>
+                        </a>
+
+                        <a href="" class="text-white">
+                            <i class="bi bi-facebook fs-2 bg-black p-3 rounded-pill"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div> <!--FECHA ROW-->
+        </div> <!--FECHA CONTAINER-->
+    </footer>
 
 
     <script src="js/bootstrap.bundle.min.js"></script>

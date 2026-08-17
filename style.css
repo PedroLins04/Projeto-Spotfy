@@ -9,7 +9,6 @@ body {
 
 section:first-of-type {
     padding-top: 100px;
-    margin-bottom: 15px;
 }
 
 .navbar-custom .nav-link {
@@ -39,7 +38,7 @@ a {
 
 .btn-roxo {
   background-color: #2596f8;
-  margin-right: 5px;
+  font-weight:bold;
 }
 
 .btn-premium{
@@ -61,7 +60,8 @@ a {
 
 .btn-branco {
   background-color: #fff;
-  color: black;
+  color: #7c25f8;
+  font-weight: bold;
 }
 
 .btn-branco:hover{
@@ -77,9 +77,14 @@ h1.destacar{
 .lr{
   color: #9bf0e1;
   font-weight: 400;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .rotacao{
   transform: rotate(30deg);
   padding-left: 80px;
+}
+
+.ft{
+  color: #b4b3b3;
 }
